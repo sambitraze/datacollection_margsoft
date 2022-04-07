@@ -13,7 +13,7 @@ NMS_THRESHOLD = 0.1
 cap = cv2.VideoCapture('rtsp://root:P5FvY7hTyN@192.168.150.104:554/live1s1.sdp')
 
 class_names = []
-with open("mineral.names", "r") as f:
+with open("anpr.names", "r") as f:
     class_names = [cname.strip() for cname in f.readlines()]
 
 colors = np.random.uniform(0,255,size=(len(class_names),3))
