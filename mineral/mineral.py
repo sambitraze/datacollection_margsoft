@@ -6,7 +6,7 @@ import os
 CONFIDENCE_THRESHOLD = 0.6
 NMS_THRESHOLD = 0.001
 
-cap = cv2.VideoCapture('rtsp://admin:GT#6vK8D@192.168.150.105:554/cam/realmonitor?channel=1&subtype=0')
+cap = cv2.VideoCapture('rtsp://admin:GTjU6vK8D@192.168.150.105:554/cam/realmonitor?channel=1&subtype=0')
 prevTime = 0
 # width = int(cap.get(cv2.CAP_PROP_FRAME_WIDTH))
 # height = int(cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
