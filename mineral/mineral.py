@@ -28,7 +28,7 @@ model = cv2.dnn_DetectionModel(net)
 model.setInputParams(size=(640, 640), scale=1/255, swapRB=True)
 
 name = 1
-dir_n = 1
+dir_n = 2
 while cap.isOpened(): 
     ret, frame = cap.read()
     frame = np.array(frame)
